@@ -1,0 +1,448 @@
+Apr  9 11:35:47 10.71.49.8 tmp93233588-847 Connection from 10.71.49.8 port 60102 on 217.160.63.105 port 22
+Apr  9 11:35:48 10.71.49.8 tmp93233588-847 Accepted password for tmp93233588-847 from 10.71.49.8 port 60102 ssh2
+Apr  9 11:35:48 10.71.49.8 tmp93233588-847 Starting session: subsystem 'sftp' for tmp93233588-847 from 10.71.49.8 port 60102
+Apr  9 11:35:48 10.71.49.8 tmp93233588-847 session opened for local user tmp93233588-847 from [10.71.49.8]
+Apr  9 11:36:10 10.71.49.8 tmp93233588-224 Connection from 10.71.49.8 port 25684 on 217.160.63.105 port 22
+Apr  9 11:36:10 10.71.49.8 tmp93233588-224 Accepted password for tmp93233588-224 from 10.71.49.8 port 25684 ssh2
+Apr  9 11:38:11 10.71.49.8 tmp93233588-847 open "/style.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr  9 11:38:11 10.71.49.8 tmp93233588-847 close "/style.css" bytes read 0 written 4548
+Apr  9 11:38:11 10.71.49.8 tmp93233588-847 [10.71.49.8|put|0|4548|0|0|0|2f7374796c652e637373|]
+Apr  9 11:38:11 10.71.49.8 tmp93233588-847 open "/index.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr  9 11:38:11 10.71.49.8 tmp93233588-847 close "/index.html" bytes read 0 written 10809
+Apr  9 11:38:11 10.71.49.8 tmp93233588-847 [10.71.49.8|put|0|10809|0|0|0|2f696e6465782e68746d6c|]
+Apr  9 11:38:11 10.71.49.8 tmp93233588-847 open "/index.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr  9 11:38:11 10.71.49.8 tmp93233588-847 close "/index.html" bytes read 0 written 10809
+Apr  9 11:38:11 10.71.49.8 tmp93233588-847 [10.71.49.8|put|0|10809|0|0|0|2f696e6465782e68746d6c|]
+Apr  9 11:38:42 10.71.49.8 tmp93233588-847 mkdir name "/SVG" mode 0777
+Apr  9 11:38:42 10.71.49.8 tmp93233588-847 [10.71.49.8|mkdir|0|0|511|0|0|2f535647|]
+Apr  9 11:39:34 10.71.49.8 tmp93233588-847 open "/SVG/chart-pie.svg" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr  9 11:39:34 10.71.49.8 tmp93233588-847 close "/SVG/chart-pie.svg" bytes read 0 written 438
+Apr  9 11:39:34 10.71.49.8 tmp93233588-847 [10.71.49.8|put|0|438|0|0|0|2f5356472f63686172742d7069652e737667|]
+Apr  9 11:39:34 10.71.49.8 tmp93233588-847 open "/SVG/chart-line.svg" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr  9 11:39:34 10.71.49.8 tmp93233588-847 close "/SVG/chart-line.svg" bytes read 0 written 473
+Apr  9 11:39:34 10.71.49.8 tmp93233588-847 [10.71.49.8|put|0|473|0|0|0|2f5356472f63686172742d6c696e652e737667|]
+Apr  9 11:39:34 10.71.49.8 tmp93233588-847 open "/SVG/cubes.svg" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr  9 11:39:34 10.71.49.8 tmp93233588-847 close "/SVG/cubes.svg" bytes read 0 written 687
+Apr  9 11:39:34 10.71.49.8 tmp93233588-847 [10.71.49.8|put|0|687|0|0|0|2f5356472f63756265732e737667|]
+Apr  9 11:40:18 10.71.49.8 tmp93233588-847 mkdir name "/images" mode 0777
+Apr  9 11:40:18 10.71.49.8 tmp93233588-847 [10.71.49.8|mkdir|0|0|511|0|0|2f696d61676573|]
+Apr  9 11:41:30 10.71.49.8 tmp93233588-847 open "/images/02.jpg" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr  9 11:41:30 10.71.49.8 tmp93233588-847 close "/images/02.jpg" bytes read 0 written 101470
+Apr  9 11:41:30 10.71.49.8 tmp93233588-847 [10.71.49.8|put|0|101470|0|0|0|2f696d616765732f30322e6a7067|]
+Apr  9 11:41:30 10.71.49.8 tmp93233588-847 open "/images/01.jpg" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr  9 11:41:30 10.71.49.8 tmp93233588-847 close "/images/01.jpg" bytes read 0 written 17707
+Apr  9 11:41:30 10.71.49.8 tmp93233588-847 [10.71.49.8|put|0|17707|0|0|0|2f696d616765732f30312e6a7067|]
+Apr  9 11:41:30 10.71.49.8 tmp93233588-847 open "/images/08.jpg" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr  9 11:41:30 10.71.49.8 tmp93233588-847 close "/images/08.jpg" bytes read 0 written 22820
+Apr  9 11:41:30 10.71.49.8 tmp93233588-847 [10.71.49.8|put|0|22820|0|0|0|2f696d616765732f30382e6a7067|]
+Apr  9 11:41:30 10.71.49.8 tmp93233588-847 open "/images/07.jpg" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr  9 11:41:30 10.71.49.8 tmp93233588-847 close "/images/07.jpg" bytes read 0 written 13152
+Apr  9 11:41:30 10.71.49.8 tmp93233588-847 [10.71.49.8|put|0|13152|0|0|0|2f696d616765732f30372e6a7067|]
+Apr  9 11:41:30 10.71.49.8 tmp93233588-847 open "/images/full.jpg" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr  9 11:41:30 10.71.49.8 tmp93233588-847 close "/images/full.jpg" bytes read 0 written 38293
+Apr  9 11:41:30 10.71.49.8 tmp93233588-847 [10.71.49.8|put|0|38293|0|0|0|2f696d616765732f66756c6c2e6a7067|]
+Apr  9 11:41:30 10.71.49.8 tmp93233588-847 open "/images/03.jpg" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr  9 11:41:30 10.71.49.8 tmp93233588-847 close "/images/03.jpg" bytes read 0 written 20909
+Apr  9 11:41:30 10.71.49.8 tmp93233588-847 [10.71.49.8|put|0|20909|0|0|0|2f696d616765732f30332e6a7067|]
+Apr  9 11:41:30 10.71.49.8 tmp93233588-847 open "/images/04.jpg" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr  9 11:41:30 10.71.49.8 tmp93233588-847 close "/images/04.jpg" bytes read 0 written 20059
+Apr  9 11:41:30 10.71.49.8 tmp93233588-847 [10.71.49.8|put|0|20059|0|0|0|2f696d616765732f30342e6a7067|]
+Apr  9 11:41:30 10.71.49.8 tmp93233588-847 open "/images/06.jpg" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr  9 11:41:30 10.71.49.8 tmp93233588-847 close "/images/06.jpg" bytes read 0 written 63387
+Apr  9 11:41:30 10.71.49.8 tmp93233588-847 [10.71.49.8|put|0|63387|0|0|0|2f696d616765732f30362e6a7067|]
+Apr  9 11:41:30 10.71.49.8 tmp93233588-847 open "/images/05.jpg" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr  9 11:41:30 10.71.49.8 tmp93233588-847 close "/images/05.jpg" bytes read 0 written 17173
+Apr  9 11:41:30 10.71.49.8 tmp93233588-847 [10.71.49.8|put|0|17173|0|0|0|2f696d616765732f30352e6a7067|]
+Apr  9 11:41:43 10.71.49.8 tmp93233588-847 mkdir name "/logo" mode 0777
+Apr  9 11:41:43 10.71.49.8 tmp93233588-847 [10.71.49.8|mkdir|0|0|511|0|0|2f6c6f676f|]
+Apr  9 11:42:16 10.71.49.8 tmp93233588-847 open "/logo/mac.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr  9 11:42:16 10.71.49.8 tmp93233588-847 close "/logo/mac.png" bytes read 0 written 68665
+Apr  9 11:42:16 10.71.49.8 tmp93233588-847 [10.71.49.8|put|0|68665|0|0|0|2f6c6f676f2f6d61632e706e67|]
+Apr  9 11:42:16 10.71.49.8 tmp93233588-847 open "/logo/logo.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr  9 11:42:16 10.71.49.8 tmp93233588-847 close "/logo/logo.png" bytes read 0 written 5073
+Apr  9 11:42:16 10.71.49.8 tmp93233588-847 [10.71.49.8|put|0|5073|0|0|0|2f6c6f676f2f6c6f676f2e706e67|]
+Apr  9 11:42:29 10.71.49.8 tmp93233588-847 mkdir name "/slider" mode 0777
+Apr  9 11:42:29 10.71.49.8 tmp93233588-847 [10.71.49.8|mkdir|0|0|511|0|0|2f736c69646572|]
+Apr  9 11:42:50 10.71.49.8 tmp93233588-847 open "/slider/bg2.jpg" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr  9 11:42:50 10.71.49.8 tmp93233588-847 close "/slider/bg2.jpg" bytes read 0 written 87808
+Apr  9 11:42:50 10.71.49.8 tmp93233588-847 [10.71.49.8|put|0|87808|0|0|0|2f736c696465722f6267322e6a7067|]
+Apr  9 11:42:50 10.71.49.8 tmp93233588-847 open "/slider/bg1.jpg" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr  9 11:42:50 10.71.49.8 tmp93233588-847 close "/slider/bg1.jpg" bytes read 0 written 105715
+Apr  9 11:42:50 10.71.49.8 tmp93233588-847 [10.71.49.8|put|0|105715|0|0|0|2f736c696465722f6267312e6a7067|]
+Apr  9 11:49:06 10.71.51.37 u93233588 Connection from 10.71.51.37 port 35124 on 217.160.63.105 port 22
+Apr  9 11:49:11 10.71.51.37 u93233588 Accepted password for u93233588 from 10.71.51.37 port 35124 ssh2
+Apr  9 11:49:11 10.71.51.37 u93233588 Starting session: subsystem 'sftp' for u93233588 from 10.71.51.37 port 35124
+Apr  9 11:49:11 10.71.51.37 u93233588 session opened for local user u93233588 from [10.71.51.37]
+Apr  9 11:51:54 10.71.51.37 u93233588 Connection from 10.71.51.37 port 49838 on 217.160.63.105 port 22
+Apr  9 11:51:55 10.71.51.37 u93233588 Accepted password for u93233588 from 10.71.51.37 port 49838 ssh2
+Apr  9 11:51:54 10.71.51.37 u93233588 Connection from 10.71.51.37 port 49868 on 217.160.63.105 port 22
+Apr  9 11:51:55 10.71.51.37 u93233588 Accepted password for u93233588 from 10.71.51.37 port 49868 ssh2
+Apr  9 11:51:55 10.71.51.37 u93233588 Starting session: subsystem 'sftp' for u93233588 from 10.71.51.37 port 49838
+Apr  9 11:51:55 10.71.51.37 u93233588 session opened for local user u93233588 from [10.71.51.37]
+Apr  9 11:51:55 10.71.51.37 u93233588 Starting session: subsystem 'sftp' for u93233588 from 10.71.51.37 port 49868
+Apr  9 11:51:55 10.71.51.37 u93233588 session opened for local user u93233588 from [10.71.51.37]
+Apr  9 11:51:55 10.71.51.37 u93233588 sent status No such file
+Apr  9 11:51:55 10.71.51.37 u93233588 open "/logs/index.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr  9 11:51:55 10.71.51.37 u93233588 sent status Permission denied
+Apr  9 11:51:55 10.71.51.37 u93233588 sent status No such file
+Apr  9 11:51:55 10.71.51.37 u93233588 open "/logs/style.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr  9 11:51:55 10.71.51.37 u93233588 sent status Permission denied
+Apr  9 11:51:55 10.71.51.37 u93233588 sent status No such file
+Apr  9 11:51:55 10.71.51.37 u93233588 sent status No such file
+Apr  9 11:51:55 10.71.51.37 u93233588 open "/logs/index.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr  9 11:51:55 10.71.51.37 u93233588 sent status Permission denied
+Apr  9 11:51:55 10.71.51.37 u93233588 open "/logs/style.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr  9 11:51:55 10.71.51.37 u93233588 sent status Permission denied
+Apr  9 11:51:55 10.71.51.37 u93233588 sent status No such file
+Apr  9 11:51:55 10.71.51.37 u93233588 sent status No such file
+Apr  9 11:51:55 10.71.51.37 u93233588 open "/logs/index.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr  9 11:51:55 10.71.51.37 u93233588 sent status Permission denied
+Apr  9 11:51:55 10.71.51.37 u93233588 open "/logs/style.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr  9 11:51:55 10.71.51.37 u93233588 sent status Permission denied
+Apr  9 11:52:28 10.71.51.37 u93233588 sent status No such file
+Apr  9 11:52:28 10.71.51.37 u93233588 open "/slider/style.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr  9 11:52:29 10.71.51.37 u93233588 close "/slider/style.css" bytes read 0 written 4548
+Apr  9 11:52:29 10.71.51.37 u93233588 [10.71.51.37|put|1|4548|0|0|0|2f736c696465722f7374796c652e637373|]
+Apr  9 11:52:55 10.71.51.37 u93233588 session closed for local user u93233588 from [10.71.51.37]
+Apr  9 11:52:55 10.71.51.37 u93233588 Connection closed by 10.71.51.37
+Apr  9 11:53:29 10.71.51.37 u93233588 session closed for local user u93233588 from [10.71.51.37]
+Apr  9 11:53:29 10.71.51.37 u93233588 Connection closed by 10.71.51.37
+Apr  9 11:54:28 10.71.51.37 u93233588 sent status No such file
+Apr  9 11:54:28 10.71.51.37 u93233588 rename old "/SVG" new "/slider/SVG"
+Apr  9 11:54:28 10.71.51.37 u93233588 [10.71.51.37|rename|0|0|0|0|0|2f535647|2f736c696465722f535647]
+Apr  9 11:54:33 10.71.51.37 u93233588 remove name "/images/05.jpg"
+Apr  9 11:54:33 10.71.51.37 u93233588 [10.71.51.37|rm|0|0|0|0|0|2f696d616765732f30352e6a7067|]
+Apr  9 11:54:33 10.71.51.37 u93233588 remove name "/images/06.jpg"
+Apr  9 11:54:33 10.71.51.37 u93233588 [10.71.51.37|rm|0|0|0|0|0|2f696d616765732f30362e6a7067|]
+Apr  9 11:54:33 10.71.51.37 u93233588 remove name "/images/04.jpg"
+Apr  9 11:54:33 10.71.51.37 u93233588 [10.71.51.37|rm|0|0|0|0|0|2f696d616765732f30342e6a7067|]
+Apr  9 11:54:33 10.71.51.37 u93233588 remove name "/images/03.jpg"
+Apr  9 11:54:33 10.71.51.37 u93233588 [10.71.51.37|rm|0|0|0|0|0|2f696d616765732f30332e6a7067|]
+Apr  9 11:54:33 10.71.51.37 u93233588 remove name "/images/full.jpg"
+Apr  9 11:54:33 10.71.51.37 u93233588 [10.71.51.37|rm|0|0|0|0|0|2f696d616765732f66756c6c2e6a7067|]
+Apr  9 11:54:33 10.71.51.37 u93233588 remove name "/images/07.jpg"
+Apr  9 11:54:33 10.71.51.37 u93233588 [10.71.51.37|rm|0|0|0|0|0|2f696d616765732f30372e6a7067|]
+Apr  9 11:54:33 10.71.51.37 u93233588 remove name "/images/08.jpg"
+Apr  9 11:54:33 10.71.51.37 u93233588 [10.71.51.37|rm|0|0|0|0|0|2f696d616765732f30382e6a7067|]
+Apr  9 11:54:33 10.71.51.37 u93233588 remove name "/images/01.jpg"
+Apr  9 11:54:33 10.71.51.37 u93233588 [10.71.51.37|rm|0|0|0|0|0|2f696d616765732f30312e6a7067|]
+Apr  9 11:54:33 10.71.51.37 u93233588 remove name "/images/02.jpg"
+Apr  9 11:54:33 10.71.51.37 u93233588 [10.71.51.37|rm|0|0|0|0|0|2f696d616765732f30322e6a7067|]
+Apr  9 11:54:33 10.71.51.37 u93233588 rmdir name "/images"
+Apr  9 11:54:33 10.71.51.37 u93233588 [10.71.51.37|rmdir|0|0|0|0|0|2f696d61676573|]
+Apr  9 11:54:37 10.71.51.37 u93233588 remove name "/logo/logo.png"
+Apr  9 11:54:37 10.71.51.37 u93233588 [10.71.51.37|rm|0|0|0|0|0|2f6c6f676f2f6c6f676f2e706e67|]
+Apr  9 11:54:37 10.71.51.37 u93233588 remove name "/logo/mac.png"
+Apr  9 11:54:37 10.71.51.37 u93233588 [10.71.51.37|rm|0|0|0|0|0|2f6c6f676f2f6d61632e706e67|]
+Apr  9 11:54:37 10.71.51.37 u93233588 rmdir name "/logo"
+Apr  9 11:54:37 10.71.51.37 u93233588 [10.71.51.37|rmdir|0|0|0|0|0|2f6c6f676f|]
+Apr  9 11:54:39 10.71.51.37 u93233588 remove name "/logs/access.log.current"
+Apr  9 11:54:39 10.71.51.37 u93233588 [10.71.51.37|rm|0|0|0|0|13|2f6c6f67732f6163636573732e6c6f672e63757272656e74|]
+Apr  9 11:54:39 10.71.51.37 u93233588 sent status Permission denied
+Apr  9 11:54:39 10.71.51.37 u93233588 remove name "/logs/access.log.15.1"
+Apr  9 11:54:39 10.71.51.37 u93233588 [10.71.51.37|rm|0|0|0|0|13|2f6c6f67732f6163636573732e6c6f672e31352e31|]
+Apr  9 11:54:39 10.71.51.37 u93233588 sent status Permission denied
+Apr  9 11:54:39 10.71.51.37 u93233588 remove name "/logs/sftp.log"
+Apr  9 11:54:39 10.71.51.37 u93233588 [10.71.51.37|rm|0|0|0|0|13|2f6c6f67732f736674702e6c6f67|]
+Apr  9 11:54:39 10.71.51.37 u93233588 sent status Permission denied
+Apr  9 11:54:39 10.71.51.37 u93233588 remove name "/logs/info.py"
+Apr  9 11:54:39 10.71.51.37 u93233588 [10.71.51.37|rm|0|0|0|0|13|2f6c6f67732f696e666f2e7079|]
+Apr  9 11:54:39 10.71.51.37 u93233588 sent status Permission denied
+Apr  9 11:54:39 10.71.51.37 u93233588 remove name "/logs/info.php5"
+Apr  9 11:54:39 10.71.51.37 u93233588 [10.71.51.37|rm|0|0|0|0|13|2f6c6f67732f696e666f2e70687035|]
+Apr  9 11:54:39 10.71.51.37 u93233588 sent status Permission denied
+Apr  9 11:54:39 10.71.51.37 u93233588 remove name "/logs/info.pl"
+Apr  9 11:54:39 10.71.51.37 u93233588 [10.71.51.37|rm|0|0|0|0|13|2f6c6f67732f696e666f2e706c|]
+Apr  9 11:54:39 10.71.51.37 u93233588 sent status Permission denied
+Apr  9 11:54:39 10.71.51.37 u93233588 remove name "/logs/.htaccess"
+Apr  9 11:54:39 10.71.51.37 u93233588 [10.71.51.37|rm|0|0|0|0|13|2f6c6f67732f2e6874616363657373|]
+Apr  9 11:54:39 10.71.51.37 u93233588 sent status Permission denied
+Apr  9 11:54:39 10.71.51.37 u93233588 rmdir name "/logs/traffic.html"
+Apr  9 11:54:39 10.71.51.37 u93233588 [10.71.51.37|rmdir|0|0|0|0|13|2f6c6f67732f747261666669632e68746d6c|]
+Apr  9 11:54:39 10.71.51.37 u93233588 sent status Permission denied
+Apr  9 11:54:40 10.71.51.37 u93233588 rmdir name "/logs"
+Apr  9 11:54:40 10.71.51.37 u93233588 [10.71.51.37|rmdir|0|0|0|0|39|2f6c6f6773|]
+Apr  9 11:54:40 10.71.51.37 u93233588 sent status Failure
+Apr  9 11:54:42 10.71.51.37 u93233588 remove name "/logs/access.log.current"
+Apr  9 11:54:42 10.71.51.37 u93233588 [10.71.51.37|rm|0|0|0|0|13|2f6c6f67732f6163636573732e6c6f672e63757272656e74|]
+Apr  9 11:54:42 10.71.51.37 u93233588 sent status Permission denied
+Apr  9 11:54:42 10.71.51.37 u93233588 remove name "/logs/access.log.15.1"
+Apr  9 11:54:42 10.71.51.37 u93233588 [10.71.51.37|rm|0|0|0|0|13|2f6c6f67732f6163636573732e6c6f672e31352e31|]
+Apr  9 11:54:42 10.71.51.37 u93233588 sent status Permission denied
+Apr  9 11:54:42 10.71.51.37 u93233588 remove name "/logs/sftp.log"
+Apr  9 11:54:42 10.71.51.37 u93233588 [10.71.51.37|rm|0|0|0|0|13|2f6c6f67732f736674702e6c6f67|]
+Apr  9 11:54:42 10.71.51.37 u93233588 sent status Permission denied
+Apr  9 11:54:42 10.71.51.37 u93233588 remove name "/logs/info.py"
+Apr  9 11:54:42 10.71.51.37 u93233588 [10.71.51.37|rm|0|0|0|0|13|2f6c6f67732f696e666f2e7079|]
+Apr  9 11:54:42 10.71.51.37 u93233588 sent status Permission denied
+Apr  9 11:54:42 10.71.51.37 u93233588 remove name "/logs/info.php5"
+Apr  9 11:54:42 10.71.51.37 u93233588 [10.71.51.37|rm|0|0|0|0|13|2f6c6f67732f696e666f2e70687035|]
+Apr  9 11:54:42 10.71.51.37 u93233588 sent status Permission denied
+Apr  9 11:54:42 10.71.51.37 u93233588 remove name "/logs/info.pl"
+Apr  9 11:54:42 10.71.51.37 u93233588 [10.71.51.37|rm|0|0|0|0|13|2f6c6f67732f696e666f2e706c|]
+Apr  9 11:54:42 10.71.51.37 u93233588 sent status Permission denied
+Apr  9 11:54:42 10.71.51.37 u93233588 remove name "/logs/.htaccess"
+Apr  9 11:54:42 10.71.51.37 u93233588 [10.71.51.37|rm|0|0|0|0|13|2f6c6f67732f2e6874616363657373|]
+Apr  9 11:54:42 10.71.51.37 u93233588 sent status Permission denied
+Apr  9 11:54:42 10.71.51.37 u93233588 rmdir name "/logs/traffic.html"
+Apr  9 11:54:42 10.71.51.37 u93233588 [10.71.51.37|rmdir|0|0|0|0|13|2f6c6f67732f747261666669632e68746d6c|]
+Apr  9 11:54:42 10.71.51.37 u93233588 sent status Permission denied
+Apr  9 11:54:42 10.71.51.37 u93233588 rmdir name "/logs"
+Apr  9 11:54:42 10.71.51.37 u93233588 [10.71.51.37|rmdir|0|0|0|0|39|2f6c6f6773|]
+Apr  9 11:54:42 10.71.51.37 u93233588 sent status Failure
+Apr  9 11:54:46 10.71.51.37 u93233588 remove name "/slider/style.css"
+Apr  9 11:54:46 10.71.51.37 u93233588 [10.71.51.37|rm|0|0|0|0|0|2f736c696465722f7374796c652e637373|]
+Apr  9 11:54:46 10.71.51.37 u93233588 remove name "/slider/bg1.jpg"
+Apr  9 11:54:46 10.71.51.37 u93233588 [10.71.51.37|rm|0|0|0|0|0|2f736c696465722f6267312e6a7067|]
+Apr  9 11:54:46 10.71.51.37 u93233588 remove name "/slider/bg2.jpg"
+Apr  9 11:54:46 10.71.51.37 u93233588 [10.71.51.37|rm|0|0|0|0|0|2f736c696465722f6267322e6a7067|]
+Apr  9 11:54:46 10.71.51.37 u93233588 remove name "/slider/SVG/cubes.svg"
+Apr  9 11:54:46 10.71.51.37 u93233588 [10.71.51.37|rm|0|0|0|0|0|2f736c696465722f5356472f63756265732e737667|]
+Apr  9 11:54:46 10.71.51.37 u93233588 remove name "/slider/SVG/chart-line.svg"
+Apr  9 11:54:46 10.71.51.37 u93233588 [10.71.51.37|rm|0|0|0|0|0|2f736c696465722f5356472f63686172742d6c696e652e737667|]
+Apr  9 11:54:46 10.71.51.37 u93233588 remove name "/slider/SVG/chart-pie.svg"
+Apr  9 11:54:46 10.71.51.37 u93233588 [10.71.51.37|rm|0|0|0|0|0|2f736c696465722f5356472f63686172742d7069652e737667|]
+Apr  9 11:54:46 10.71.51.37 u93233588 rmdir name "/slider/SVG"
+Apr  9 11:54:46 10.71.51.37 u93233588 [10.71.51.37|rmdir|0|0|0|0|0|2f736c696465722f535647|]
+Apr  9 11:54:46 10.71.51.37 u93233588 rmdir name "/slider"
+Apr  9 11:54:46 10.71.51.37 u93233588 [10.71.51.37|rmdir|0|0|0|0|0|2f736c69646572|]
+Apr  9 11:54:49 10.71.51.37 u93233588 remove name "/logs/access.log.current"
+Apr  9 11:54:49 10.71.51.37 u93233588 [10.71.51.37|rm|0|0|0|0|13|2f6c6f67732f6163636573732e6c6f672e63757272656e74|]
+Apr  9 11:54:49 10.71.51.37 u93233588 sent status Permission denied
+Apr  9 11:54:49 10.71.51.37 u93233588 remove name "/logs/access.log.15.1"
+Apr  9 11:54:49 10.71.51.37 u93233588 [10.71.51.37|rm|0|0|0|0|13|2f6c6f67732f6163636573732e6c6f672e31352e31|]
+Apr  9 11:54:49 10.71.51.37 u93233588 sent status Permission denied
+Apr  9 11:54:49 10.71.51.37 u93233588 remove name "/logs/sftp.log"
+Apr  9 11:54:49 10.71.51.37 u93233588 [10.71.51.37|rm|0|0|0|0|13|2f6c6f67732f736674702e6c6f67|]
+Apr  9 11:54:49 10.71.51.37 u93233588 sent status Permission denied
+Apr  9 11:54:49 10.71.51.37 u93233588 remove name "/logs/info.py"
+Apr  9 11:54:49 10.71.51.37 u93233588 [10.71.51.37|rm|0|0|0|0|13|2f6c6f67732f696e666f2e7079|]
+Apr  9 11:54:49 10.71.51.37 u93233588 sent status Permission denied
+Apr  9 11:54:49 10.71.51.37 u93233588 remove name "/logs/info.php5"
+Apr  9 11:54:49 10.71.51.37 u93233588 [10.71.51.37|rm|0|0|0|0|13|2f6c6f67732f696e666f2e70687035|]
+Apr  9 11:54:49 10.71.51.37 u93233588 sent status Permission denied
+Apr  9 11:54:49 10.71.51.37 u93233588 remove name "/logs/info.pl"
+Apr  9 11:54:49 10.71.51.37 u93233588 [10.71.51.37|rm|0|0|0|0|13|2f6c6f67732f696e666f2e706c|]
+Apr  9 11:54:49 10.71.51.37 u93233588 sent status Permission denied
+Apr  9 11:54:50 10.71.51.37 u93233588 remove name "/logs/.htaccess"
+Apr  9 11:54:50 10.71.51.37 u93233588 [10.71.51.37|rm|0|0|0|0|13|2f6c6f67732f2e6874616363657373|]
+Apr  9 11:54:50 10.71.51.37 u93233588 sent status Permission denied
+Apr  9 11:54:50 10.71.51.37 u93233588 rmdir name "/logs/traffic.html"
+Apr  9 11:54:50 10.71.51.37 u93233588 [10.71.51.37|rmdir|0|0|0|0|13|2f6c6f67732f747261666669632e68746d6c|]
+Apr  9 11:54:50 10.71.51.37 u93233588 sent status Permission denied
+Apr  9 11:54:50 10.71.51.37 u93233588 rmdir name "/logs"
+Apr  9 11:54:50 10.71.51.37 u93233588 [10.71.51.37|rmdir|0|0|0|0|39|2f6c6f6773|]
+Apr  9 11:54:50 10.71.51.37 u93233588 sent status Failure
+Apr  9 11:57:35 10.71.51.37 u93233588 session closed for local user u93233588 from [10.71.51.37]
+Apr  9 11:57:35 10.71.51.37 u93233588 Connection closed by 10.71.51.37
+Apr  9 11:57:36 10.71.51.37 u93233588 Connection from 10.71.51.37 port 54466 on 217.160.63.105 port 22
+Apr  9 11:57:36 10.71.51.37 u93233588 Accepted password for u93233588 from 10.71.51.37 port 54466 ssh2
+Apr  9 11:57:36 10.71.51.37 u93233588 Starting session: subsystem 'sftp' for u93233588 from 10.71.51.37 port 54466
+Apr  9 11:57:36 10.71.51.37 u93233588 session opened for local user u93233588 from [10.71.51.37]
+Apr  9 11:57:56 10.71.51.37 u93233588 remove name "/index.html"
+Apr  9 11:57:56 10.71.51.37 u93233588 [10.71.51.37|rm|0|0|0|0|0|2f696e6465782e68746d6c|]
+Apr  9 11:57:56 10.71.51.37 u93233588 remove name "/style.css"
+Apr  9 11:57:56 10.71.51.37 u93233588 [10.71.51.37|rm|0|0|0|0|0|2f7374796c652e637373|]
+Apr  9 11:57:57 10.71.51.37 u93233588 remove name "/logs/access.log.current"
+Apr  9 11:57:57 10.71.51.37 u93233588 [10.71.51.37|rm|0|0|0|0|13|2f6c6f67732f6163636573732e6c6f672e63757272656e74|]
+Apr  9 11:57:57 10.71.51.37 u93233588 sent status Permission denied
+Apr  9 11:57:57 10.71.51.37 u93233588 remove name "/logs/access.log.15.1"
+Apr  9 11:57:57 10.71.51.37 u93233588 [10.71.51.37|rm|0|0|0|0|13|2f6c6f67732f6163636573732e6c6f672e31352e31|]
+Apr  9 11:57:57 10.71.51.37 u93233588 sent status Permission denied
+Apr  9 11:57:57 10.71.51.37 u93233588 remove name "/logs/sftp.log"
+Apr  9 11:57:57 10.71.51.37 u93233588 [10.71.51.37|rm|0|0|0|0|13|2f6c6f67732f736674702e6c6f67|]
+Apr  9 11:57:57 10.71.51.37 u93233588 sent status Permission denied
+Apr  9 11:57:57 10.71.51.37 u93233588 remove name "/logs/info.py"
+Apr  9 11:57:57 10.71.51.37 u93233588 [10.71.51.37|rm|0|0|0|0|13|2f6c6f67732f696e666f2e7079|]
+Apr  9 11:57:57 10.71.51.37 u93233588 sent status Permission denied
+Apr  9 11:57:57 10.71.51.37 u93233588 remove name "/logs/info.php5"
+Apr  9 11:57:57 10.71.51.37 u93233588 [10.71.51.37|rm|0|0|0|0|13|2f6c6f67732f696e666f2e70687035|]
+Apr  9 11:57:57 10.71.51.37 u93233588 sent status Permission denied
+Apr  9 11:57:57 10.71.51.37 u93233588 remove name "/logs/info.pl"
+Apr  9 11:57:57 10.71.51.37 u93233588 [10.71.51.37|rm|0|0|0|0|13|2f6c6f67732f696e666f2e706c|]
+Apr  9 11:57:57 10.71.51.37 u93233588 sent status Permission denied
+Apr  9 11:57:57 10.71.51.37 u93233588 remove name "/logs/.htaccess"
+Apr  9 11:57:57 10.71.51.37 u93233588 [10.71.51.37|rm|0|0|0|0|13|2f6c6f67732f2e6874616363657373|]
+Apr  9 11:57:57 10.71.51.37 u93233588 sent status Permission denied
+Apr  9 11:57:57 10.71.51.37 u93233588 rmdir name "/logs/traffic.html"
+Apr  9 11:57:57 10.71.51.37 u93233588 [10.71.51.37|rmdir|0|0|0|0|13|2f6c6f67732f747261666669632e68746d6c|]
+Apr  9 11:57:57 10.71.51.37 u93233588 sent status Permission denied
+Apr  9 11:57:57 10.71.51.37 u93233588 rmdir name "/logs"
+Apr  9 11:57:57 10.71.51.37 u93233588 [10.71.51.37|rmdir|0|0|0|0|39|2f6c6f6773|]
+Apr  9 11:57:57 10.71.51.37 u93233588 sent status Failure
+Apr  9 12:00:09 10.71.51.37 u93233588 session closed for local user u93233588 from [10.71.51.37]
+Apr  9 12:00:09 10.71.51.37 u93233588 Connection closed by 10.71.51.37
+Apr  9 12:00:09 10.71.51.37 u93233588 Connection from 10.71.51.37 port 60280 on 217.160.63.105 port 22
+Apr  9 12:00:10 10.71.51.37 u93233588 Accepted password for u93233588 from 10.71.51.37 port 60280 ssh2
+Apr  9 12:00:10 10.71.51.37 u93233588 Starting session: subsystem 'sftp' for u93233588 from 10.71.51.37 port 60280
+Apr  9 12:00:10 10.71.51.37 u93233588 session opened for local user u93233588 from [10.71.51.37]
+Apr  9 12:04:47 10.71.51.37 u93233588 session closed for local user u93233588 from [10.71.51.37]
+Apr  9 12:04:47 10.71.51.37 u93233588 Connection closed by 10.71.51.37
+Apr  9 12:04:47 10.71.51.37 u93233588 Connection from 10.71.51.37 port 63272 on 217.160.63.105 port 22
+Apr  9 12:04:47 10.71.51.37 u93233588 Accepted password for u93233588 from 10.71.51.37 port 63272 ssh2
+Apr  9 12:04:48 10.71.51.37 u93233588 Starting session: subsystem 'sftp' for u93233588 from 10.71.51.37 port 63272
+Apr  9 12:04:48 10.71.51.37 u93233588 session opened for local user u93233588 from [10.71.51.37]
+Apr  9 12:04:57 10.71.51.37 u93233588 session closed for local user u93233588 from [10.71.51.37]
+Apr  9 12:04:57 10.71.51.37 u93233588 Connection closed by 10.71.51.37
+Apr  9 12:06:08 10.71.51.37 u93233588 Connection from 10.71.51.37 port 11496 on 217.160.63.105 port 22
+Apr  9 12:06:20 10.71.51.37 u93233588 Accepted password for u93233588 from 10.71.51.37 port 11496 ssh2
+Apr  9 12:06:20 10.71.51.37 u93233588 Starting session: subsystem 'sftp' for u93233588 from 10.71.51.37 port 11496
+Apr  9 12:06:20 10.71.51.37 u93233588 session opened for local user u93233588 from [10.71.51.37]
+Apr  9 12:06:40 10.71.51.37 u93233588 Connection from 10.71.51.37 port 56588 on 217.160.63.105 port 22
+Apr  9 12:06:41 10.71.51.37 u93233588 Accepted password for u93233588 from 10.71.51.37 port 56588 ssh2
+Apr  9 12:06:40 10.71.51.37 u93233588 Connection from 10.71.51.37 port 56568 on 217.160.63.105 port 22
+Apr  9 12:06:41 10.71.51.37 u93233588 Accepted password for u93233588 from 10.71.51.37 port 56568 ssh2
+Apr  9 12:06:41 10.71.51.37 u93233588 Starting session: subsystem 'sftp' for u93233588 from 10.71.51.37 port 56588
+Apr  9 12:06:41 10.71.51.37 u93233588 Starting session: subsystem 'sftp' for u93233588 from 10.71.51.37 port 56568
+Apr  9 12:06:41 10.71.51.37 u93233588 session opened for local user u93233588 from [10.71.51.37]
+Apr  9 12:06:41 10.71.51.37 u93233588 session opened for local user u93233588 from [10.71.51.37]
+Apr  9 12:06:41 10.71.51.37 u93233588 sent status No such file
+Apr  9 12:06:41 10.71.51.37 u93233588 open "/style.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr  9 12:06:41 10.71.51.37 u93233588 sent status No such file
+Apr  9 12:06:41 10.71.51.37 u93233588 open "/index.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr  9 12:06:41 10.71.51.37 u93233588 close "/style.css" bytes read 0 written 4548
+Apr  9 12:06:41 10.71.51.37 u93233588 [10.71.51.37|put|0|4548|0|0|0|2f7374796c652e637373|]
+Apr  9 12:06:41 10.71.51.37 u93233588 sent status No such file
+Apr  9 12:06:41 10.71.51.37 u93233588 sent status No such file
+Apr  9 12:06:41 10.71.51.37 u93233588 close "/index.html" bytes read 0 written 10809
+Apr  9 12:06:41 10.71.51.37 u93233588 [10.71.51.37|put|0|10809|0|0|0|2f696e6465782e68746d6c|]
+Apr  9 12:06:41 10.71.51.37 u93233588 sent status No such file
+Apr  9 12:06:41 10.71.51.37 u93233588 mkdir name "/images" mode 0777
+Apr  9 12:06:41 10.71.51.37 u93233588 [10.71.51.37|mkdir|0|0|511|0|0|2f696d61676573|]
+Apr  9 12:06:41 10.71.51.37 u93233588 sent status No such file
+Apr  9 12:06:41 10.71.51.37 u93233588 sent status No such file
+Apr  9 12:06:41 10.71.51.37 u93233588 open "/images/02.jpg" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr  9 12:06:41 10.71.51.37 u93233588 open "/images/01.jpg" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr  9 12:06:42 10.71.51.37 u93233588 close "/images/01.jpg" bytes read 0 written 17707
+Apr  9 12:06:42 10.71.51.37 u93233588 [10.71.51.37|put|1|17707|0|0|0|2f696d616765732f30312e6a7067|]
+Apr  9 12:06:42 10.71.51.37 u93233588 sent status No such file
+Apr  9 12:06:42 10.71.51.37 u93233588 open "/images/03.jpg" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr  9 12:06:43 10.71.51.37 u93233588 close "/images/02.jpg" bytes read 0 written 101470
+Apr  9 12:06:43 10.71.51.37 u93233588 [10.71.51.37|put|2|101470|0|0|0|2f696d616765732f30322e6a7067|]
+Apr  9 12:06:43 10.71.51.37 u93233588 sent status No such file
+Apr  9 12:06:43 10.71.51.37 u93233588 open "/images/04.jpg" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr  9 12:06:43 10.71.51.37 u93233588 close "/images/03.jpg" bytes read 0 written 20909
+Apr  9 12:06:43 10.71.51.37 u93233588 [10.71.51.37|put|1|20909|0|0|0|2f696d616765732f30332e6a7067|]
+Apr  9 12:06:43 10.71.51.37 u93233588 sent status No such file
+Apr  9 12:06:43 10.71.51.37 u93233588 open "/images/05.jpg" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr  9 12:06:43 10.71.51.37 u93233588 close "/images/04.jpg" bytes read 0 written 20059
+Apr  9 12:06:43 10.71.51.37 u93233588 [10.71.51.37|put|0|20059|0|0|0|2f696d616765732f30342e6a7067|]
+Apr  9 12:06:43 10.71.51.37 u93233588 sent status No such file
+Apr  9 12:06:43 10.71.51.37 u93233588 open "/images/06.jpg" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr  9 12:06:43 10.71.51.37 u93233588 close "/images/05.jpg" bytes read 0 written 17173
+Apr  9 12:06:43 10.71.51.37 u93233588 [10.71.51.37|put|0|17173|0|0|0|2f696d616765732f30352e6a7067|]
+Apr  9 12:06:43 10.71.51.37 u93233588 sent status No such file
+Apr  9 12:06:44 10.71.51.37 u93233588 open "/images/07.jpg" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr  9 12:06:44 10.71.51.37 u93233588 close "/images/06.jpg" bytes read 0 written 63387
+Apr  9 12:06:44 10.71.51.37 u93233588 [10.71.51.37|put|1|63387|0|0|0|2f696d616765732f30362e6a7067|]
+Apr  9 12:06:44 10.71.51.37 u93233588 sent status No such file
+Apr  9 12:06:44 10.71.51.37 u93233588 open "/images/08.jpg" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr  9 12:06:44 10.71.51.37 u93233588 close "/images/07.jpg" bytes read 0 written 13152
+Apr  9 12:06:44 10.71.51.37 u93233588 [10.71.51.37|put|0|13152|0|0|0|2f696d616765732f30372e6a7067|]
+Apr  9 12:06:44 10.71.51.37 u93233588 sent status No such file
+Apr  9 12:06:44 10.71.51.37 u93233588 open "/images/full.jpg" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr  9 12:06:44 10.71.51.37 u93233588 close "/images/08.jpg" bytes read 0 written 22820
+Apr  9 12:06:44 10.71.51.37 u93233588 [10.71.51.37|put|0|22820|0|0|0|2f696d616765732f30382e6a7067|]
+Apr  9 12:06:44 10.71.51.37 u93233588 sent status No such file
+Apr  9 12:06:44 10.71.51.37 u93233588 sent status No such file
+Apr  9 12:06:44 10.71.51.37 u93233588 sent status No such file
+Apr  9 12:06:44 10.71.51.37 u93233588 mkdir name "/logo" mode 0777
+Apr  9 12:06:44 10.71.51.37 u93233588 [10.71.51.37|mkdir|0|0|511|0|0|2f6c6f676f|]
+Apr  9 12:06:44 10.71.51.37 u93233588 close "/images/full.jpg" bytes read 0 written 38293
+Apr  9 12:06:44 10.71.51.37 u93233588 [10.71.51.37|put|0|38293|0|0|0|2f696d616765732f66756c6c2e6a7067|]
+Apr  9 12:06:44 10.71.51.37 u93233588 sent status No such file
+Apr  9 12:06:44 10.71.51.37 u93233588 sent status No such file
+Apr  9 12:06:44 10.71.51.37 u93233588 open "/logo/mac.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr  9 12:06:44 10.71.51.37 u93233588 open "/logo/logo.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr  9 12:06:45 10.71.51.37 u93233588 close "/logo/mac.png" bytes read 0 written 68665
+Apr  9 12:06:45 10.71.51.37 u93233588 [10.71.51.37|put|1|68665|0|0|0|2f6c6f676f2f6d61632e706e67|]
+Apr  9 12:06:45 10.71.51.37 u93233588 sent status No such file
+Apr  9 12:06:45 10.71.51.37 u93233588 close "/logo/logo.png" bytes read 0 written 5073
+Apr  9 12:06:45 10.71.51.37 u93233588 [10.71.51.37|put|1|5073|0|0|0|2f6c6f676f2f6c6f676f2e706e67|]
+Apr  9 12:06:45 10.71.51.37 u93233588 sent status No such file
+Apr  9 12:06:45 10.71.51.37 u93233588 sent status No such file
+Apr  9 12:06:45 10.71.51.37 u93233588 mkdir name "/slider" mode 0777
+Apr  9 12:06:45 10.71.51.37 u93233588 [10.71.51.37|mkdir|0|0|511|0|0|2f736c69646572|]
+Apr  9 12:06:46 10.71.51.37 u93233588 sent status No such file
+Apr  9 12:06:46 10.71.51.37 u93233588 sent status No such file
+Apr  9 12:06:46 10.71.51.37 u93233588 open "/slider/bg1.jpg" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr  9 12:06:46 10.71.51.37 u93233588 open "/slider/bg2.jpg" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr  9 12:06:47 10.71.51.37 u93233588 close "/slider/bg2.jpg" bytes read 0 written 87808
+Apr  9 12:06:47 10.71.51.37 u93233588 [10.71.51.37|put|1|87808|0|0|0|2f736c696465722f6267322e6a7067|]
+Apr  9 12:06:47 10.71.51.37 u93233588 close "/slider/bg1.jpg" bytes read 0 written 105715
+Apr  9 12:06:47 10.71.51.37 u93233588 [10.71.51.37|put|1|105715|0|0|0|2f736c696465722f6267312e6a7067|]
+Apr  9 12:06:47 10.71.51.37 u93233588 sent status No such file
+Apr  9 12:06:47 10.71.51.37 u93233588 sent status No such file
+Apr  9 12:06:47 10.71.51.37 u93233588 sent status No such file
+Apr  9 12:06:47 10.71.51.37 u93233588 mkdir name "/SVG" mode 0777
+Apr  9 12:06:47 10.71.51.37 u93233588 [10.71.51.37|mkdir|0|0|511|0|0|2f535647|]
+Apr  9 12:06:48 10.71.51.37 u93233588 sent status No such file
+Apr  9 12:06:48 10.71.51.37 u93233588 sent status No such file
+Apr  9 12:06:48 10.71.51.37 u93233588 open "/SVG/chart-line.svg" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr  9 12:06:48 10.71.51.37 u93233588 open "/SVG/chart-pie.svg" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr  9 12:06:48 10.71.51.37 u93233588 close "/SVG/chart-line.svg" bytes read 0 written 473
+Apr  9 12:06:48 10.71.51.37 u93233588 [10.71.51.37|put|0|473|0|0|0|2f5356472f63686172742d6c696e652e737667|]
+Apr  9 12:06:48 10.71.51.37 u93233588 close "/SVG/chart-pie.svg" bytes read 0 written 438
+Apr  9 12:06:48 10.71.51.37 u93233588 [10.71.51.37|put|0|438|0|0|0|2f5356472f63686172742d7069652e737667|]
+Apr  9 12:06:48 10.71.51.37 u93233588 sent status No such file
+Apr  9 12:06:48 10.71.51.37 u93233588 open "/SVG/cubes.svg" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr  9 12:06:48 10.71.51.37 u93233588 close "/SVG/cubes.svg" bytes read 0 written 687
+Apr  9 12:06:48 10.71.51.37 u93233588 [10.71.51.37|put|0|687|0|0|0|2f5356472f63756265732e737667|]
+Apr  9 12:07:48 10.71.51.37 u93233588 session closed for local user u93233588 from [10.71.51.37]
+Apr  9 12:07:48 10.71.51.37 u93233588 Connection closed by 10.71.51.37
+Apr  9 12:08:47 10.71.51.37 u93233588 session closed for local user u93233588 from [10.71.51.37]
+Apr  9 12:08:47 10.71.51.37 u93233588 Connection closed by 10.71.51.37
+Apr  9 12:12:48 10.71.51.37 u93233588 session closed for local user u93233588 from [10.71.51.37]
+Apr  9 12:12:48 10.71.51.37 u93233588 Connection closed by 10.71.51.37
+Apr  9 12:12:49 10.71.51.37 u93233588 Connection from 10.71.51.37 port 23566 on 217.160.63.105 port 22
+Apr  9 12:12:49 10.71.51.37 u93233588 Accepted password for u93233588 from 10.71.51.37 port 23566 ssh2
+Apr  9 12:12:49 10.71.51.37 u93233588 Starting session: subsystem 'sftp' for u93233588 from 10.71.51.37 port 23566
+Apr  9 12:12:49 10.71.51.37 u93233588 session opened for local user u93233588 from [10.71.51.37]
+Apr  9 12:12:56 10.71.51.37 u93233588 session closed for local user u93233588 from [10.71.51.37]
+Apr  9 12:12:56 10.71.51.37 u93233588 Connection closed by 10.71.51.37
+Apr  9 12:12:56 10.71.51.37 u93233588 Connection from 10.71.51.37 port 35818 on 217.160.63.105 port 22
+Apr  9 12:12:57 10.71.51.37 u93233588 Accepted password for u93233588 from 10.71.51.37 port 35818 ssh2
+Apr  9 12:12:57 10.71.51.37 u93233588 Starting session: subsystem 'sftp' for u93233588 from 10.71.51.37 port 35818
+Apr  9 12:12:57 10.71.51.37 u93233588 session opened for local user u93233588 from [10.71.51.37]
+Apr  9 12:21:45 10.71.51.37 u93233588 session closed for local user u93233588 from [10.71.51.37]
+Apr  9 12:21:45 10.71.51.37 u93233588 Connection closed by 10.71.51.37
+Apr  9 12:21:45 10.71.51.37 u93233588 Connection from 10.71.51.37 port 40394 on 217.160.63.105 port 22
+Apr  9 12:21:46 10.71.51.37 u93233588 Accepted password for u93233588 from 10.71.51.37 port 40394 ssh2
+Apr  9 12:21:46 10.71.51.37 u93233588 Starting session: subsystem 'sftp' for u93233588 from 10.71.51.37 port 40394
+Apr  9 12:21:46 10.71.51.37 u93233588 session opened for local user u93233588 from [10.71.51.37]
+Apr  9 12:30:01 10.71.51.37 u93233588 sent status No such file
+Apr  9 12:30:10 10.71.51.37 u93233588 sent status No such file
+Apr  9 12:30:24 10.71.51.37 u93233588 sent status No such file
+Apr  9 12:30:44 10.71.51.37 u93233588 sent status No such file
+Apr  9 12:30:44 10.71.51.37 u93233588 rename old "/logs/access.log.current" new "/logs/traffic.html/access.log.current"
+Apr  9 12:30:44 10.71.51.37 u93233588 [10.71.51.37|rename|0|0|0|0|13|2f6c6f67732f6163636573732e6c6f672e63757272656e74|2f6c6f67732f747261666669632e68746d6c2f6163636573732e6c6f672e63757272656e74]
+Apr  9 12:30:44 10.71.51.37 u93233588 sent status Permission denied
+Apr  9 12:31:48 10.71.51.37 u93233588 session closed for local user u93233588 from [10.71.51.37]
+Apr  9 12:31:48 10.71.51.37 u93233588 Connection closed by 10.71.51.37
+Apr  9 12:31:48 10.71.51.37 u93233588 Connection from 10.71.51.37 port 34462 on 217.160.63.105 port 22
+Apr  9 12:31:49 10.71.51.37 u93233588 Accepted password for u93233588 from 10.71.51.37 port 34462 ssh2
+Apr  9 12:31:49 10.71.51.37 u93233588 Starting session: subsystem 'sftp' for u93233588 from 10.71.51.37 port 34462
+Apr  9 12:31:49 10.71.51.37 u93233588 session opened for local user u93233588 from [10.71.51.37]
+Apr  9 12:32:43 10.71.51.37 u93233588 Connection from 10.71.51.37 port 54656 on 217.160.63.105 port 22
+Apr  9 12:32:43 10.71.51.37 u93233588 Accepted password for u93233588 from 10.71.51.37 port 54656 ssh2
+Apr  9 12:32:43 10.71.51.37 u93233588 Starting session: subsystem 'sftp' for u93233588 from 10.71.51.37 port 54656
+Apr  9 12:32:44 10.71.51.37 u93233588 session opened for local user u93233588 from [10.71.51.37]
+Apr  9 12:32:54 10.71.51.37 u93233588 open "/index.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr  9 12:32:54 10.71.51.37 u93233588 close "/index.html" bytes read 0 written 10809
+Apr  9 12:32:54 10.71.51.37 u93233588 [10.71.51.37|put|0|10809|0|0|0|2f696e6465782e68746d6c|]
+Apr  9 12:33:04 10.71.51.37 u93233588 open "/style.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Apr  9 12:33:04 10.71.51.37 u93233588 close "/style.css" bytes read 0 written 4548
+Apr  9 12:33:04 10.71.51.37 u93233588 [10.71.51.37|put|0|4548|0|0|0|2f7374796c652e637373|]
+Apr  9 12:34:04 10.71.51.37 u93233588 session closed for local user u93233588 from [10.71.51.37]
+Apr  9 12:34:04 10.71.51.37 u93233588 Connection closed by 10.71.51.37
+Apr  9 12:34:49 10.71.51.37 u93233588 sent status No such file
+Apr  9 12:34:49 10.71.51.37 u93233588 Connection from 10.71.51.37 port 14554 on 217.160.63.105 port 22
+Apr  9 12:34:50 10.71.51.37 u93233588 Accepted password for u93233588 from 10.71.51.37 port 14554 ssh2
+Apr  9 12:34:49 10.71.51.37 u93233588 Connection from 10.71.51.37 port 14556 on 217.160.63.105 port 22
+Apr  9 12:34:50 10.71.51.37 u93233588 Accepted password for u93233588 from 10.71.51.37 port 14556 ssh2
+Apr  9 12:34:50 10.71.51.37 u93233588 Starting session: subsystem 'sftp' for u93233588 from 10.71.51.37 port 14554
+Apr  9 12:34:50 10.71.51.37 u93233588 Starting session: subsystem 'sftp' for u93233588 from 10.71.51.37 port 14556
+Apr  9 12:34:50 10.71.51.37 u93233588 session opened for local user u93233588 from [10.71.51.37]
+Apr  9 12:34:50 10.71.51.37 u93233588 session opened for local user u93233588 from [10.71.51.37]
+Apr  9 12:34:50 10.71.51.37 u93233588 open "/logs/access.log.15.1" flags READ mode 0666
+Apr  9 12:34:50 10.71.51.37 u93233588 open "/logs/sftp.log" flags READ mode 0666

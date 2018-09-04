@@ -1,0 +1,229 @@
+@media all and (min-width:321px) and (max-width:736px)
+{
+    
+    .services{
+        padding-top: 15%;
+    }
+    
+ .web{
+    z-index: 100;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top:-5px;
+    left:-150px;
+    background-color: white;
+    display:block;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 150px;
+    
+}
+    
+.menu{
+    
+    margin-left:45%;
+    position:relative ;
+    display: inline-block;
+    width: 100%;
+    top: 10px;
+    left: -40%;
+    
+}
+   
+.logo{
+        display:none;
+    }
+    
+#slider{
+    display: none;
+   
+}
+
+    
+.global{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100% ;
+    margin: auto;
+}
+
+
+.block1{
+    position:relative;
+    left:0;
+    display:block;
+    width: 5%;
+    height: 50%;
+}
+
+.block2{
+    margin:5% ;
+    padding: 5%;
+    position: relative;
+    left: 10%;
+    display:block;
+    height: 100%;
+    width: 100%;
+    
+}
+  
+.ux{
+    position: relative;
+    margin:2px;
+    left: 0;
+    width:50%;
+    height:23% ;
+}
+
+
+.ui{
+    position: relative;
+    margin:2px;
+    left: 0;
+    width:50%;
+    height:23% ;
+}
+
+
+.se{
+    position: relative;
+    margin:2px;
+    left: 0;
+    width:50%;
+    height:23% ;
+}
+
+#svg1{
+   margin-left:-15px;
+   display: flex;
+   width: 15px;
+   height: 15px;
+ 
+}
+    
+#svg2{
+    margin-left:-15px;
+    display: flex;
+    width: 15px;
+    height: 15px;
+}
+
+
+#svg3{
+    margin-left:-15px;
+    display: flex;
+    width: 15px;
+    height: 15px;
+}
+    
+
+    
+.navigation{
+    position: relative;
+    text-align: center;
+    display: block;
+    margin: auto;
+    border-width: 25px;
+    width: 455px;
+    height: 100px;
+    
+}
+.vignette{
+    position:relative;
+    left: 0;
+    margin:5%;
+    width: 95%;
+    height: 100%;
+    
+}
+
+.bandeau{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    display: block ;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    opacity: 0;
+    transition: all 0.3s ease;
+    width:95%;
+    height:77px;
+    margin: -100px;
+    margin-left:19px;
+    padding: 0px 0px;
+    
+}
+    
+.eye{
+    width:40px;
+    height: 40px;
+    padding: 5px;
+    position: relative;
+    top:-25px;
+    left: 80%;
+    border: solid 2px white;
+    color: white;
+    background-color: #5cadd3;
+    border-radius: 55px 55px;
+    
+}
+    
+form{
+    position: relative;
+    margin-top:247%;
+    left: -28%;
+    background-color:#5cadd3;
+    padding-left: 15px;
+    width: 100%;
+    height: 100%;
+    border:none;
+    display: inline-block;
+}
+    
+.contact{
+    margin-top:-1000px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: block;
+    
+    margin-left:30%;
+    
+}
+  
+.elements{
+    width: 60%;
+    display: block;
+    margin:10px;
+}
+
+.info{
+    display: inline-block;
+    padding-top: 15px;
+    margin-bottom: 10px;
+}
+
+textarea{
+    width: 175px;
+    height: 25%;
+}
+
+#sub{
+    background-color:white; 
+    color: black;
+    width: 105px;
+    height: 25px;
+    border: none;
+    border-radius: 3px;
+    
+}
+
+#sub:hover{
+    background-color: grey;
+    color:#5cadd3 ;
+    transition: 1s;
+    border: none;
+}

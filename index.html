@@ -1,0 +1,296 @@
+
+<!--Fait par moi meme (Saaxs) dans le cadre dúne formation de type Mooc
+    avec certaines restrictions.
+    pas de frameworks ni de javascript-->
+
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta property="og:title" content="Webagency"/>
+        <meta property="og:type" content="siteweb"/>
+        <meta property="og:image" content="./logo/logo.png"/>
+        <meta property="og:url" content="http://stevens-webagency.org/"/>
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" media="screen and (min-width:740px) and (max-width:1024px)" href="moyen.css"/>
+        <link rel="stylesheet" media="screen and (min-width:320px) and (max-width:736px)" href="petit.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+        <title>WebAgency</title>
+    </head>
+
+    <header>
+
+<!--  web est la div qui englobe le logo et le menu-->
+    <div class="web">
+<!-- la div du logo WebAgency-->
+        <div class="logo">
+            <img src="./logo/logo.png" alt="logo WebAgency">
+        </div>
+
+            <!-- le menu du header en haut a droite-->
+            <div class="menu">
+                <nav>   
+                    
+                        <a href="#slider" class="acceuil">Accueil</a>
+                        <a href="#nosservices" class="acceuil">Services</a>
+                        <a href="#projets" class="acceuil">Portfolio</a>
+                        <a href="#formulaire" class="acceuil">Contact</a>
+                    
+                </nav>
+            </div>
+    </div>
+
+    <!-- la div des images qui defilent dans l'en tete la class sliders inclu aussi la class contenu-->
+    <div id="slider">
+        <figure>
+            <img src="./slider/bg1.jpg" alt="Une fille avec de la peinture sur les mains">
+            <img src="./slider/bg2.jpg" alt="Un garcon qui crie dans un mégaphone">
+        </figure>
+    
+        <!-- la div du texte sur les sliders utilisé le Z-index dans CSS pour le caler dessus-->
+        <div class="contenu">
+            <p class="agency"><span class="txt" style="color:#5cadd3" >WEBAGENCY</span> : L 'AGENCE DE<br><span class="txt2">TOUT VOS PROJETS!</span><br>
+            <span class="agency1">Vous Avez un projet web? La WebAgency vous aide à le réaliser!</span><br>
+            <input class="btn" type="button" value="plus d'infos">
+            </p>
+    <!-- le bouton "plus d'infos" utiliser aussi le Z-index pour le superposer dessus dans le css-->
+        <div class="bouton">
+                <input class="btn" type="button" value="plus d'infos">
+            </div>
+        </div>
+    </div>
+    </header>
+
+<body>
+
+<!--La div service"s" englobe tout la div service reprend le titre et le texte-->
+<!--la mac inclus uniquement l'image d'un mac et la div section les différentes sections design et SEO et leurs logo-->
+    <div class="services">
+        <div class="service">
+                <h1 class="titre" id="nosservices">NOS SERVICES</h1>
+                    <p id="p1">Nous gérons votre projet sous tous ses aspects :<span class="bold"> Design, code, référencement,</span> ...<br>Avec la<span id="web1"> WebAgency</span> bénéficiez des meilleurs conseils pour affirmer votre présence en ligne !</p>
+        </div>
+
+        <div class="global">
+
+                <div class="block1">
+                    <a href="#">
+                        <img id="mac1" src="./logo/mac.png" alt="image d'un mac">
+                    </a> 
+                </div>
+    
+                <div class="block2">
+    
+                    <div id="line1">
+                        <div class="svg1">
+                            <a href="#">
+                                <img id="svg1" src="./SVG/chart-line.svg" alt=""/>
+                            </a>
+                            <div class="ux">
+                                <ul>
+                                    <li><span class="bold">UX design</span><br>Nous utilisons les <span class="bold">
+                                    dernières innovations</span> pour que vos visiteurs gardent un souvenir inoubliable de leur visite, et reviennent régulièrement. </li>
+                                </ul>    
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="line2">
+                            <div class="svg2">
+                                <a href="#">
+                                    <img id="svg2" src="./SVG/cubes.svg" alt=""/>
+                                </a>
+                            
+                                <div class="ui">
+                                    <ul>
+                                        <li><span class="bold">UI design</span><br> Que vôtre site soit affiché sur ordinateur, tablette ou smartphone, nous<br>
+                                             créeons une interface qui s'adapte à tous les cas, tout en respectant<br> votre identité visuelle.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                    </div>
+
+                    <div class="line3">
+                            <div class="svg3">
+                                <a href="#">
+                                    <img id="svg3" src="./SVG/chart-pie.svg" alt=""/>
+                                </a>
+                            
+                                <div class="se">
+                                    <ul>
+                                        <li><span class="bold">SEO</span><br>Nos experts se chargent du <span class="bold">référencement</span> de votre site, et vous assurent<br>
+                                        la meilleure visibilité possible dans les moteurs de recherche. Ils vous<br>
+                                        accompagnent également lors de vos <span class="bold">campagnes de communication.</span></li>
+                                    </ul>
+                                </div>  
+                            </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+<!--La div projet"s" est la div principale de cette section et projet reprend le titre et le texte-->
+    <div class="projets" id="projets">
+        <div class="projet">
+                <h1 class="titre">NOS PROJETS</h1>
+                <P id="p2">Voici quelques exemples réalisés pour nos clients</P>
+        </div>
+
+<!--Contient le menu menant au section "all works", "créative","corporate", "portfolio"-->
+                <div class="navigation">
+                    <nav>
+                        <ul>
+                            <li class="accp">All Works</li>
+                            <li class="accp">Créative</li>
+                            <li class="accp">Corporate</li>
+                            <li class="accp">Portfolio</li>
+                        </ul>
+                    </nav>
+                </div>
+    </div>
+   
+<!-- contient les icones liés au sections-->
+<!-- utiliser un flexbox pour positionner le tout-->
+<div class="works">
+            <div class="grpvignette">
+                <div class="vignettes">
+                    <a href="#">
+                        <img class="vignette" src="./images/01.jpg" alt="Marx Style">
+                    </a>
+                <div class="bandeau">
+                    <a href="#">
+                        <img class="eye" src="./SVG/eye.svg" alt="oeil">
+                    </a>
+                    <h2 class="textbandeau">
+                        Goucho Marx Style
+                    </h2>
+                 </div>
+                 </div>      
+
+                <div class="vignettes">
+                    <a href="#">
+                        <img class="vignette" src="./images/02.jpg" alt="Rabbit Robot">
+                    </a>
+                <div class="bandeau">
+                    <a href="#">
+                        <img class="eye" src="./SVG/eye.svg" alt="oeil">
+                    </a>
+                    <h2 class="textbandeau">
+                        Rabbit Robot
+                    </h2>
+                </div>
+                </div> 
+
+                <div class="vignettes">
+                    <a href="#">
+                        <img class="vignette" src="./images/03.jpg" alt="Original P">
+                    </a>
+                <div class="bandeau">
+                    <a href="#">
+                        <img class="eye" src="./SVG/eye.svg" alt="oeil">
+                    </a>
+                    <h2  class="textbandeau">
+                        Pompadour
+                    </h2>
+                </div>
+                </div> 
+
+                <div class="vignettes">
+                    <a href="#">
+                        <img class="vignette" src="./images/04.jpg" alt="Algo">
+                    </a>
+                <div class="bandeau">
+                    <a href="#">
+                        <img class="eye" src="./SVG/eye.svg" alt="oeil">
+                    </a>
+                    <h2 class="textbandeau">
+                        Algorithmic 
+                    </h2>
+                </div>
+                </div>
+                
+                <div class="vignettes">
+                    <a href="#">
+                        <img class="vignette" src="./images/05.jpg" alt="Shopping cart">
+                    </a>
+                <div class="bandeau">
+                    <a href="#">
+                        <img class="eye" src="./SVG/eye.svg" alt="oeil">
+                    </a>
+                    <h2 class="textbandeau">
+                        Shopping cart 
+                    </h2>
+                </div>
+                </div>
+
+                <div class="vignettes">
+                    <a href="#">
+                        <img class="vignette" src="./images/06.jpg" alt="City">
+                    </a>
+                <div class="bandeau">
+                    <a href="#">
+                        <img class="eye" src="./SVG/eye.svg" alt="oeil">
+                    </a>
+                    <h2 class="textbandeau">
+                        Modern city
+                    </h2>
+                </div>
+                </div> 
+
+                <div class="vignettes">
+                    <a href="#">
+                            <img class="vignette" src="./images/07.jpg" alt="Rocket">
+                    </a>
+                <div class="bandeau">
+                    <a href="#">
+                        <img class="eye" src="./SVG/eye.svg" alt="oeil">
+                    </a>
+                    <h2 class="textbandeau">
+                        Rocket fifties style
+                    </h2>
+                </div>
+                </div> 
+
+                <div class="vignettes">
+                    <a href="#">
+                        <img class="vignette" src="./images/08.jpg" alt="Desk">
+                    </a>
+                <div class="bandeau">
+                    <a href="#">
+                        <img class="eye" src="./SVG/eye.svg" alt="oeil">
+                    </a>
+                    <h2 class="textbandeau">
+                        Material world 
+                    </h2>
+                </div>
+                </div> 
+            </div>
+</div>
+
+<!-- la div formulaire englobe toute la partie du formulaire de contact-->
+<!-- la div form englobe la map de google-->
+<!--la div contact contient le formulaire de contact-->
+        <div class="formulaire">
+            <div class="form" id="formulaire">
+                    <div class="iframe">  
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2626.2561120395376!2d2.347635615228985!3d48.873166307620906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e145cb52f15%3A0x4d3ec41b2cadff0!2s25+Rue+d&#39;Hauteville%2C+75010+Paris!5e0!3m2!1sfr!2sfr!4v1522341003886"></iframe>              
+                    </div>                     
+                <div class="contact">
+                    <form method="post" action="#">
+                        <h2 class="info"><span class="bold1">Nous Contacter</span></h2>
+                        <address><span class="bold">WebAgency SAS</span><br/> 25 Rue d'Hauteville 75010 Paris<br />Tel : 01 02 03 04 05</address>
+                            <input class="elements" type="text" name="nom-prénom" placeholder="Nom-Prénom"/>
+                            <input class="elements" type="text" name="email" placeholder="Email"/>
+                            <input class="elements" type="text" name="sujet" placeholder="Sujet"/>
+                            <textarea class="elements" name="message" placeholder="Message"></textarea>
+                            <input class="elements" id="sub" type="submit" value="Send Message"/>
+                    </form>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
+
